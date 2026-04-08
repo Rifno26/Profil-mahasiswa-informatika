@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas Web Profil - Armin Welay</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px;">
+
+    <!-- <div> untuk membagi layout -->
+    
+    <!-- BAGIAN 1: HOME (Beranda) -->
+    <div id="home" style="background-color: white; padding: 20px; margin-bottom: 20px; border: 1px solid #ddd; text-align: center;">
+        <!-- Gambar (Logo UST) -->
+        <img src="UST.png" alt="Logo UST" width="150">
+        <!-- Heading -->
+        <h1>Selamat Datang di Website Profil Saya</h1>
+        
+        <!--Paragraf -->
+        <p>Halo semuanya! Perkenankan saya memperkenalkan diri melalui halaman web sederhana ini. Website ini dibuat sebagai bagian dari tugas mata kuliah Desain Web untuk menunjukkan struktur dasar HTML.</p>
+        
+        <!--Hyperlink -->
+        <p>Kunjungi situs resmi kampus saya: <a href="https://ustjogja.ac.id" target="_blank">Website UST Yogyakarta</a></p>
+    </div>
+
+    <!-- BAGIAN 2: PROFIL -->
+    <div id="profil" style="background-color: white; padding: 20px; margin-bottom: 20px; border: 1px solid #ddd;">
+        <h2>Profil <span style="color: #1b5e20;">Mahasiswa</span></h2>
+        
+        <p>Nama Saya: <strong>Rifno Arka</strong></p>
+        
+        <!-- <span> untuk styling teks tertentu -->
+        <p>Saat ini saya sedang menempuh pendidikan <span style="color: blue; font-weight: bold;">Semester 4</span> di Program Studi Teknik Informatika, Universitas Sarjanawiyata Tamansiswa.</p>
+        
+        <p>Berikut adalah beberapa fokus studi yang saya pelajari saat ini:</p>
+        
+        <!--List -->
+        <ul>
+            <li>Kecerdasan Buatan</li>
+            <li>Dasar Pemrograman Web</li>
+            <li>Desain UI/UX</li>
+            <li>Basis Data</li>
+        </ul>
+    </div>
+
+    <!--BAGIAN 3: KONTAK -->
+    <div id="kontak" style="background-color: white; padding: 20px; border: 1px solid #ddd;">
+        <h2>Hubungi Saya</h2>
+        <p>Jika ada pertanyaan, silakan isi formulir di bawah ini:</p>
+
+        <!--Form -->
+        <form>
+            <p>
+                Nama: <br>
+                <input type="text" name="nama" size="40">
+            </p>
+            <p>
+                Email: <br>
+                <input type="email" name="email" size="40">
+            </p>
+            <p>
+                Pesan: <br>
+                <textarea name="pesan" cols="41" rows="5"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Kirim Pesan">
+            </p>
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px; color: #777;">
+        <p>&copy; 2026 Rifno Arka - Teknik Informatika UST</p>
+    </div>
+</body>
+</html>
